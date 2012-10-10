@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611458EF15F29FEC00AB0C2F /* FlipClockTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 611458EE15F29FEC00AB0C2F /* FlipClockTile.m */; };
+		D88809BD15C8250C00D2AC39 /* FlipClockImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D88809BC15C8250C00D2AC39 /* FlipClockImages.m */; };
+		D890640215C145E5007A0884 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D890640115C145E5007A0884 /* UIKit.framework */; };
+		D890640415C145E5007A0884 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D890640315C145E5007A0884 /* Foundation.framework */; };
+		D890640615C145E5007A0884 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D890640515C145E5007A0884 /* CoreGraphics.framework */; };
+		D890640C15C145E5007A0884 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D890640A15C145E5007A0884 /* InfoPlist.strings */; };
+		D890640E15C145E5007A0884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D890640D15C145E5007A0884 /* main.m */; };
+		D890641215C145E5007A0884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D890641115C145E5007A0884 /* AppDelegate.m */; };
+		D890641515C145E5007A0884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D890641415C145E5007A0884 /* ViewController.m */; };
+		D890641815C145E5007A0884 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D890641615C145E5007A0884 /* ViewController.xib */; };
+		D890642815C14AAA007A0884 /* FlipClock.m in Sources */ = {isa = PBXBuildFile; fileRef = D890642715C14AAA007A0884 /* FlipClock.m */; };
+		D8D4C81515C2C73D008EC86F /* FlipClockDigit.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D4C81415C2C73D008EC86F /* FlipClockDigit.m */; };
+		D8E7A56015C1796E000D0F53 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E7A55F15C1796E000D0F53 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		611458ED15F29FEC00AB0C2F /* FlipClockTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockTile.h; sourceTree = "<group>"; };
+		611458EE15F29FEC00AB0C2F /* FlipClockTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockTile.m; sourceTree = "<group>"; };
+		D88809BB15C8250C00D2AC39 /* FlipClockImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockImages.h; sourceTree = "<group>"; };
+		D88809BC15C8250C00D2AC39 /* FlipClockImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockImages.m; sourceTree = "<group>"; };
+		D89063FD15C145E5007A0884 /* FlipClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D890640115C145E5007A0884 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D890640315C145E5007A0884 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D890640515C145E5007A0884 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D890640915C145E5007A0884 /* FlipClock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipClock-Info.plist"; sourceTree = "<group>"; };
+		D890640B15C145E5007A0884 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D890640D15C145E5007A0884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D890640F15C145E5007A0884 /* FlipClock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipClock-Prefix.pch"; sourceTree = "<group>"; };
+		D890641015C145E5007A0884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D890641115C145E5007A0884 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D890641315C145E5007A0884 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D890641415C145E5007A0884 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D890641715C145E5007A0884 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D890642615C14AAA007A0884 /* FlipClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClock.h; sourceTree = SOURCE_ROOT; };
+		D890642715C14AAA007A0884 /* FlipClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClock.m; sourceTree = SOURCE_ROOT; };
+		D8D4C81315C2C73D008EC86F /* FlipClockDigit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockDigit.h; sourceTree = "<group>"; };
+		D8D4C81415C2C73D008EC86F /* FlipClockDigit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockDigit.m; sourceTree = "<group>"; };
+		D8E7A55F15C1796E000D0F53 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89063FA15C145E5007A0884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E7A56015C1796E000D0F53 /* QuartzCore.framework in Frameworks */,
+				D890640215C145E5007A0884 /* UIKit.framework in Frameworks */,
+				D890640415C145E5007A0884 /* Foundation.framework in Frameworks */,
+				D890640615C145E5007A0884 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D89063F215C145E5007A0884 = {
+			isa = PBXGroup;
+			children = (
+				D8E7A55F15C1796E000D0F53 /* QuartzCore.framework */,
+				D890640715C145E5007A0884 /* FlipClock */,
+				D890640015C145E5007A0884 /* Frameworks */,
+				D89063FE15C145E5007A0884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D89063FE15C145E5007A0884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89063FD15C145E5007A0884 /* FlipClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D890640015C145E5007A0884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D890640115C145E5007A0884 /* UIKit.framework */,
+				D890640315C145E5007A0884 /* Foundation.framework */,
+				D890640515C145E5007A0884 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D890640715C145E5007A0884 /* FlipClock */ = {
+			isa = PBXGroup;
+			children = (
+				D890641015C145E5007A0884 /* AppDelegate.h */,
+				D890641115C145E5007A0884 /* AppDelegate.m */,
+				D890641315C145E5007A0884 /* ViewController.h */,
+				D890641415C145E5007A0884 /* ViewController.m */,
+				D890642615C14AAA007A0884 /* FlipClock.h */,
+				D890642715C14AAA007A0884 /* FlipClock.m */,
+				D8D4C81315C2C73D008EC86F /* FlipClockDigit.h */,
+				D8D4C81415C2C73D008EC86F /* FlipClockDigit.m */,
+				611458ED15F29FEC00AB0C2F /* FlipClockTile.h */,
+				611458EE15F29FEC00AB0C2F /* FlipClockTile.m */,
+				D88809BB15C8250C00D2AC39 /* FlipClockImages.h */,
+				D88809BC15C8250C00D2AC39 /* FlipClockImages.m */,
+				D890641615C145E5007A0884 /* ViewController.xib */,
+				D890640815C145E5007A0884 /* Supporting Files */,
+			);
+			path = FlipClock;
+			sourceTree = "<group>";
+		};
+		D890640815C145E5007A0884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D890640915C145E5007A0884 /* FlipClock-Info.plist */,
+				D890640A15C145E5007A0884 /* InfoPlist.strings */,
+				D890640D15C145E5007A0884 /* main.m */,
+				D890640F15C145E5007A0884 /* FlipClock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89063FC15C145E5007A0884 /* FlipClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D890641B15C145E5007A0884 /* Build configuration list for PBXNativeTarget "FlipClock" */;
+			buildPhases = (
+				D89063F915C145E5007A0884 /* Sources */,
+				D89063FA15C145E5007A0884 /* Frameworks */,
+				D89063FB15C145E5007A0884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipClock;
+			productName = FlipClock;
+			productReference = D89063FD15C145E5007A0884 /* FlipClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89063F415C145E5007A0884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D89063F715C145E5007A0884 /* Build configuration list for PBXProject "FlipClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D89063F215C145E5007A0884;
+			productRefGroup = D89063FE15C145E5007A0884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89063FC15C145E5007A0884 /* FlipClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89063FB15C145E5007A0884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D890640C15C145E5007A0884 /* InfoPlist.strings in Resources */,
+				D890641815C145E5007A0884 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89063F915C145E5007A0884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D890640E15C145E5007A0884 /* main.m in Sources */,
+				611458EF15F29FEC00AB0C2F /* FlipClockTile.m in Sources */,
+				D890641215C145E5007A0884 /* AppDelegate.m in Sources */,
+				D890641515C145E5007A0884 /* ViewController.m in Sources */,
+				D890642815C14AAA007A0884 /* FlipClock.m in Sources */,
+				D8D4C81515C2C73D008EC86F /* FlipClockDigit.m in Sources */,
+				D88809BD15C8250C00D2AC39 /* FlipClockImages.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D890640A15C145E5007A0884 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D890640B15C145E5007A0884 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D890641615C145E5007A0884 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D890641715C145E5007A0884 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D890641915C145E5007A0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D890641A15C145E5007A0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D890641C15C145E5007A0884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D890641D15C145E5007A0884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipClock/FlipClock-Prefix.pch";
+				INFOPLIST_FILE = "FlipClock/FlipClock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89063F715C145E5007A0884 /* Build configuration list for PBXProject "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890641915C145E5007A0884 /* Debug */,
+				D890641A15C145E5007A0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D890641B15C145E5007A0884 /* Build configuration list for PBXNativeTarget "FlipClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D890641C15C145E5007A0884 /* Debug */,
+				D890641D15C145E5007A0884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89063F415C145E5007A0884 /* Project object */;
+}
